@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+
+  #target {
+    position: absolute;
+    background: red;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  #scoreboard {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+  }
+
+  #gameOver {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 36px;
+    text-align: center;
+    display: none;
+  }
